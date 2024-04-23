@@ -1,0 +1,40 @@
+<biblioteca>
+    <libro>
+        <titulo>El principito</titulo>
+        <autor>Antoine de Saint-Exupéry</autor>
+        <genero>Fantasía</genero>
+        <anio>1943</anio>
+        <prestamo>
+            <prestatario>Marta López</prestatario>
+            <fecha>2024-03-15</fecha>
+        </prestamo>
+    </libro>
+    <libro>
+        <titulo>Cien años de soledad</titulo>
+        <autor>Gabriel García Márquez</autor>
+        <genero>Realismo mágico</genero>
+        <anio>1967</anio>
+    </libro>
+    <libro>
+        <titulo>1984</titulo>
+        <autor>George Orwell</autor>
+        <genero>Ficción distópica</genero>
+        <anio>1949</anio>
+    </libro>
+    <libro>
+        <titulo>El señor de los anillos</titulo>
+        <autor>J.R.R. Tolkien</autor>
+        <genero>Fantasía épica</genero>
+        <anio>1954</anio>
+    </libro>
+    <libro>
+        <titulo>Harry Potter y la piedra filosofal</titulo>
+        <autor>J.K. Rowling</autor>
+        <genero>Fantasía</genero>
+        <anio>1997</anio>
+        <prestamo>
+            <prestatario>Carlos García</prestatario>
+            <fecha>2024-03-20</fecha>
+        </prestamo>
+    </libro>
+</biblioteca>

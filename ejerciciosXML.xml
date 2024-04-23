@@ -1,0 +1,70 @@
+<!-- Ejercicio 1: Creación de un Catálogo de Productos -->
+
+<catalogo>
+    <producto>
+        <nombre>Smartphone</nombre>
+        <descripcion>Teléfono inteligente con pantalla táctil</descripcion>
+        <precio>500</precio>
+        <categoria>Tecnología</categoria>
+    </producto>
+    <producto id ="3">
+        <nombre>Portátil</nombre>
+        <descripcion>Ordenador portátil de última generación</descripcion>
+        <precio>1200</precio>
+        <categoria>Tecnología</categoria>
+    </producto>
+    <producto>
+        <nombre>Auriculares inalámbricos</nombre>
+        <descripcion>Auriculares con conexión Bluetooth</descripcion>
+        <precio>100</precio>
+        <categoria>Accesorios</categoria>
+    </producto>
+</catalogo>
+
+
+<!-- Ejercicio 2: Uso de Atributos y Elementos Anidados -->
+
+<catalogo>
+    <producto marca="Samsung" modelo="Galaxy S21">
+        <nombre>Smartphone</nombre>
+        <descripcion>Teléfono inteligente con pantalla táctil</descripcion>
+        <precio>500</precio>
+        <categoria>Tecnología</categoria>
+        <inventario>50</inventario>
+    </producto>
+    <producto marca="Apple" modelo="MacBook Pro">
+        <nombre>Portátil</nombre>
+        <descripcion>Ordenador portátil de última generación</descripcion>
+        <precio>1200</precio>
+        <categoria>Tecnología</categoria>
+        <inventario>20</inventario>
+    </producto>
+    <producto marca="Sony" modelo="WH-1000XM4">
+        <nombre>Auriculares inalámbricos</nombre>
+        <descripcion>Auriculares con conexión Bluetooth</descripcion>
+        <precio>100</precio>
+        <categoria>Accesorios</categoria>
+        <inventario>100</inventario>
+    </producto>
+</catalogo>
+
+<!-- Ejercicio 3: XML con Referencias a Otros Elementos -->
+
+<empresa>
+    <departamento id="d001">
+        <nombre>Ventas</nombre>
+        <jefe>Juan Pérez</jefe>
+    </departamento>
+    <departamento id="d002">
+        <nombre>Marketing</nombre>
+        <jefe>María González</jefe>
+    </departamento>
+    <empleado>
+        <nombre>Carlos López</nombre>
+        <departamento_id>d001</departamento_id>
+    </empleado>
+    <empleado>
+        <nombre>Luisa Martínez</nombre>
+        <departamento_id>d002</departamento_id>
+    </empleado>
+</empresa>

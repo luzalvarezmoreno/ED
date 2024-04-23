@@ -1,0 +1,25 @@
+<!-- Haz los cambios necesarios en el siguiente documento XML para que esté bien formado:
+ -->
+
+
+
+ <!-- Se cambia el encoding de UTF-9 a UTF-8  y version a 1.0-->
+<?xml version="1.0" encoding="UTF-8" ?>
+<videojuego>
+
+<!-- Se cambia la etiqueta de cierre de título. Faltaba la / y la T no puede ir en mayuscula (debe coincidir la etiqueta de apertura con la de cierre). Además faltaba cerrar la comilla doble de "2017"  -->
+     <titulo anyo="2017"> Fortnite </titulo>
+
+     <!-- La etiqueta de apertura tiene que coincidir con la de cierre. Quito la última s en </empresas> -->
+     <empresa> Epic Games </empresa>
+
+     <!-- No se puede empezar una etiqueta con (-). Además en este caso tampoco coincide la etiqueta de apertura con la de cierre. Se sustituyen ambas por <motor></motor> -->
+     <motor> Unreal Engine </motor>
+
+     <!-- No es buena práctica utilizar ñ en las etiquetas. Ademas el ampersand (&) no se puede utilizar directamente; hay que utilizar la entidad &amp; -->
+     <companhia nombre = "Videojuegos &amp; Cia"> </companhia>
+
+     <!-- No se puede utilizar comillas dobles dentro de otras comillas dobles. Hay que utilizar su entidad &quot; -->
+     <eslogan mensaje = "vendemos &quot;realidad&quot; paralela"> </eslogan>
+
+</videojuego>
