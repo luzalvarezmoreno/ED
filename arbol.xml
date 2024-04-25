@@ -14,4 +14,34 @@
       </Direccion>
       
   </Empleado>
+
+    <Empleado>
+  
+      <Nombre>Isabella</Nombre>
+      <Apellido>Ruiz</Apellido>
+      <Contacto>9876543210</Contacto>
+      <Email>isabellaruiz@xyz.com</Email>
+      
+      <Direccion>
+           <Ciudad>México City</Ciudad>
+           <Estado>Ciudad de México</Estado>
+           <Zip>12345</Zip>
+      </Direccion>
+      
+  </Empleado>
+  
+  <Empleado>
+  
+      <Nombre>John</Nombre>
+      <Apellido>Doe</Apellido>
+      <Contacto>5551234567</Contacto>
+      <Email>johndoe@xyz.com</Email>
+      
+      <Direccion>
+           <Ciudad>New York</Ciudad>
+           <Estado>New York</Estado>
+           <Zip>10001</Zip>
+      </Direccion>
+      
+  </Empleado>
 </Empresa>
