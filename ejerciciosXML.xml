@@ -68,3 +68,23 @@
         <departamento_id>d002</departamento_id>
     </empleado>
 </empresa>
+
+
+<empresa>
+    <departamento id="d003">
+        <nombre>Ventas</nombre>
+        <jefe>Juan Pérez</jefe>
+    </departamento>
+    <departamento id="d002">
+        <nombre>Marketing</nombre>
+        <jefe>María González</jefe>
+    </departamento>
+    <empleado>
+        <nombre>Carlos López</nombre>
+        <departamento_id>d001</departamento_id>
+    </empleado>
+    <empleado>
+        <nombre>Luisa Martínez</nombre>
+        <departamento_id>d002</departamento_id>
+    </empleado>
+</empresa>
