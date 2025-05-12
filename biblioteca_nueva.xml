@@ -37,4 +37,14 @@
             <fecha>2024-03-20</fecha>
         </prestamo>
     </libro>
+    <libro>
+        <titulo>Harry Potter y la piedra filosofal</titulo>
+        <autor>J.K. Rowling</autor>
+        <genero>Fantasía</genero>
+        <anio>1997</anio>
+        <prestamo>
+            <prestatario>Carlos García</prestatario>
+            <fecha>2024-03-20</fecha>
+        </prestamo>
+    </libro>
 </biblioteca>
